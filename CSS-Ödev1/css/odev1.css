@@ -1,0 +1,37 @@
+body {
+   background-color: white;
+}
+
+.altbasliklar {
+   color: bisque;
+   background-color: rgba(59, 230, 221, 0.527);
+   border-radius: 1rem;
+}
+
+h1 {
+   color: rgb(4, 66, 124);
+   font-style: italic;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.enstruman {
+   display: inline-block;
+   vertical-align: top;
+   color: black;
+   font-style: italic;
+   background-color: rgba(59, 230, 221, 0.527);
+   border-radius: 1rem;
+   text-align: center;
+}
+
+form {
+   width: 49%;
+   display: inline-block;
+   vertical-align: top;
+   color: black;
+   font-style: italic;
+   background-color: rgb(59, 230, 221);
+   border-radius: 1rem;
+   text-align: center;
+}
+

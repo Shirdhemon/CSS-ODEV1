@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Kayıt Ol / Giriş Yap</title>
+   <link rel="stylesheet" href="css/odev1.css">
+</head>
+
+<body>
+   <h1 style="text-align: center;">Müzik Dükkanım</h1>
+
+   <p style="text-align: center;" class="altbasliklar">
+      <a href="front-page.html">Anasayfa</a>
+      &nbsp;
+      <a href="products.html">Ürünlerimiz</a>
+      &nbsp;
+      <a href="about-us.html">Hakkımızda</a>
+      &nbsp;
+      <a href="sign-in.html">Kayıt Ol / Giriş Yap</a>
+   </p>
+
+   <form>
+      <form class="form">
+         <p>KAYIT OL</p>
+         <label for="fname">Ad:</label><br>
+         <input style="width: 50%;" type="text" id="fname" name="fname"><br><br>
+         <label for="lname">Soyad:</label><br>
+         <input style="width: 50%;" type="text" id="lname" name="lname"><br><br>
+         <label for="e-mail">E-Mail Adresi:</label><br>
+         <input style="width: 50%;" type="email" name="e-mail" id="e-mail"><br><br>
+         <label for="gender">Cinsiyet:</label><br>
+         Erkek <input type="radio" name="gender" id="gender"> Kadın <input type="radio" name="gender"
+            id="gender"><br><br>
+         <label for="password">Şifre:</label><br>
+         <input style="width: 50%;" type="password" name="password" id="password"><br><br>
+         <label for="password">Şifre Tekrar:</label><br>
+         <input style="width: 50%;" type="password" name="password" id="password"><br><br>
+         <button type="submit">KAYIT OL</button>
+      </form>
+
+      <form>
+         <p>GİRİŞ YAP</p>
+         <label for="e-mail">E-Mail Adresi:</label><br>
+         <input style="width: 50%;" type="email" name="e-mail" id="e-mail"><br><br>
+         <label for="password">Şifre:</label><br>
+         <input style="width: 50%;" type="password" name="password" id="password"><br><br>
+         <label for="rememberme">Beni Hatırla</label>
+         <input type="checkbox" name="rememberme" id="rememberme"><br><br>
+         <button type="submit">GİRİŞ YAP</button><br><br>
+         <label for="fpassword">Şifremi Unuttum</label>
+         <button type="submit">Şifre Sıfırla</button>
+
+      </form>
+   </form>
+</body>
+
+</html>
